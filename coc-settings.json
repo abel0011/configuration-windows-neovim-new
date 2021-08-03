@@ -1,0 +1,67 @@
+{
+     //suggestion
+     "suggest.echodocSupport": true,
+     "suggest.completionItemKindLabels": {
+          "text": "t",
+          "method": "m",
+          "function": "f"
+     },
+     "snippets.priority": 1,
+     "yank.priority": 1,
+     "suggest.languageSourcePriority": 99,
+     "coc.source.file.priority": 2,
+     "coc.source.around.priority": 3,
+     "coc.source.buffer.priority": 4,
+     //disable
+     "snippets.ultisnips.enable": true,
+     //diagnostics
+     "diagnostic.error": "",
+     "diagnostic.warningSign": "",
+     "diagnostic.infoSign": "",
+     "diagnostic.hintSign": "",
+     //codelens
+     "codeLens.enable": true,
+     "java.referencesCodeLens.enabled": true,
+     "java.implementationsCodeLens.enabled": true,
+     "java.completion.enabled": true,
+     //para unix
+     "java.jdt.ls.vmargs": "-javagent:/usr/share/lombok/lombok.jar",
+     //list
+     "list.indicator": "",
+     "list.selectedSignText": "",
+     "coc.preferences.formatOnSaveFiletypes": [
+          "java",
+          "css",
+          "html",
+          "yaml",
+          "javascript",
+          "go",
+          "typescript",
+          "json",
+          "cs",
+          "python",
+          "vimlsp",
+          "word"
+     ],
+     "hover.target": "float",
+     "languageserver": {
+          "golang": {
+               "command": "gopls",
+               "rootPatterns": [
+                    "go.mod",
+                    ".vim/",
+                    ".git/",
+                    ".hg/"
+               ],
+               "filetypes": [
+                    "go"
+               ]
+          }
+     },
+     "html.enable": true,
+     "html.autoClosingTags": true,
+     "typescript.suggest.autoImports": true,
+     "javascript.suggest.autoImports": true,
+     "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+     "javascript.suggest.includeAutomaticOptionalChainCompletions": true
+}
